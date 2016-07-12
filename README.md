@@ -1,2 +1,3 @@
-# machine
-Machine-level dependencies and settings required to build a project
+# machine.json
+
+Declare and install machine-level dependencies required to build a project.

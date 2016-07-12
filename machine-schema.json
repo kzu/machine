@@ -1,0 +1,29 @@
+{
+    "title": "JSON schema for machine-level dependencies files",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "platforms": {
+            "type": "object",
+            "description": "A list of supported platforms.",
+            "properties": {
+                "win": {
+                    "type": "object",
+                    "properties": {
+                        "dependencies": {
+                            "type": "object"
+                        }
+                    }
+                },
+                "mac": {
+                    "type": "object",
+                    "properties": {
+                        "dependencies": {
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
